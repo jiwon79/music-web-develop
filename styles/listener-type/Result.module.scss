@@ -1,0 +1,110 @@
+@import "../../components/common/styleGuide.module";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $brand-01;
+    min-height: 100vh;
+    padding: 24px 32px 28px 32px;
+}
+
+.music {
+    .music__play {
+        font-family: galmuri-bold, serif;
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+
+    .music__title {
+        font-family: galmuri-bold, serif;
+        font-size: 32px;
+        line-height: 43px;
+        margin-bottom: 6px;
+    }
+
+    .music__artist {
+        font-family: galmuri-bold, serif;
+        font-size: 20px;
+        line-height: 17px;
+    }
+}
+
+.listenerType {
+    margin: 22px 0 0 0;
+    padding: 22px 0 40px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    .typeName {
+        font-family: galmuri-bold, serif;
+        font-size: 56px;
+        line-height: 75px;
+    }
+
+    .typeDesc {
+        margin-top: 16px;
+        background-color: black;
+        padding: 10px;
+        font-family: galmuri-bold, serif;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: $brand-01;
+    }
+
+    .title {
+        margin: 32px 0 24px 0;
+        text-align: center;
+        font-family: galmuri-bold, serif;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .keywords {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: $brand-01;
+            font-family: galmuri-bold, serif;
+            font-size: 20px;
+            height: 27px;
+        }
+    }
+}
+
+.recommend {
+    margin-top: 32px;
+
+    .title {
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: galmuri-bold, serif;
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    background-color: $brand-01;
+    margin-top: 16px;
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 148px;
+        height: 69px;
+        background-color: black;
+        color: $brand-01;
+
+        p {
+            text-align: center;
+            font-family: galmuri-bold, serif;
+            font-size: 15px;
+        }
+    }
+}

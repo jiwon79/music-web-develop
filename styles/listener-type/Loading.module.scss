@@ -1,0 +1,32 @@
+@import "../../components/common/styleGuide.module";
+
+.container {
+  padding: 24px 32px 24px 32px;
+  background-color: $brand-01;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+
+  height: 100vh;
+  width: 100%;
+
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 156px;
+    height: 156px;
+    background-color: #000;
+  }
+
+  .text {
+    margin-top: 28px;
+    text-align: center;
+    font-family: galmuri-bold, sans-serif;
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
